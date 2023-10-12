@@ -50,9 +50,9 @@ You can check the boxes below as you progress through the assignment, simply by 
   - [x] Add a 'control circuit' that will take the instruction and generate the appropriate ALU_OP signal for the ALU to perform the operation  
         For this, you will have to open and study the ALU circuit to know what control signals to generate
   - [x] Commit with message "Added ALU" and push to Github
-- [ ] Write back stage
-  - [ ] Write the results of the execution back to the register file
-  - [ ] You will have to add a control signal, which takes the instruction as the input and uses it for enabling writing to the register file when appropriate
+- [x] Write back stage
+  - [x] Write the results of the execution back to the register file
+  - [x] You will have to add a control signal, which takes the instruction as the input and uses it for enabling writing to the register file when appropriate
 2. Add support for immediate format instructions
 - [ ] I-type arithmetic instructions
   - [ ] Add a circuit for immediate generation (this circuit takes the instruction as the input and extracts the 'immediate' from it and makes it 32 bits long
