@@ -54,11 +54,11 @@ You can check the boxes below as you progress through the assignment, simply by 
   - [x] Write the results of the execution back to the register file
   - [x] You will have to add a control signal, which takes the instruction as the input and uses it for enabling writing to the register file when appropriate
 2. Add support for immediate format instructions
-- [ ] I-type arithmetic instructions
-  - [ ] Add a circuit for immediate generation (this circuit takes the instruction as the input and extracts the 'immediate' from it and makes it 32 bits long
-  - [ ] Add a multiplexer to choose between immediate and register data as input to the ALU
-  - [ ] Update the control circuit to support choosing between register and _imm_ at the mux
-  - [ ] Test: Write a simple assembly program with only I- and R- format arithmetic instructions to load two numbers in two registers; then add them and store data in a third register (all these numbers will show up on your LED bars for you to test!)
+- [x] I-type arithmetic instructions
+  - [x] Add a circuit for immediate generation (this circuit takes the instruction as the input and extracts the 'immediate' from it and makes it 32 bits long
+  - [x] Add a multiplexer to choose between immediate and register data as input to the ALU
+  - [x] Update the control circuit to support choosing between register and _imm_ at the mux
+  - [] Test: Write a simple assembly program with only I- and R- format arithmetic instructions to load two numbers in two registers; then add them and store data in a third register (all these numbers will show up on your LED bars for you to test!)
   - [ ] Commit to git with message "Added I-format arithmetic instructions" and push to Github
 
 End of assignment 1a. Congratulations! You now have a working CPU that can perform basic operations on numbers!
