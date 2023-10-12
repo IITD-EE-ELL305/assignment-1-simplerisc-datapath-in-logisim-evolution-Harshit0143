@@ -39,11 +39,11 @@ You can check the boxes below as you progress through the assignment, simply by 
   - [X] Test: Add an LED Bar to the circuit; make it 32 bits with "One Wire" input format; connect it to the output of IMEM (INSTRUCTION pin); and re-run the simulation: you should see different LED patterns reflecting different data in the IMEM as you toggle the clock
   - [x] Test: You can also change the values in IMEM: Open the test_imem file with notepad and simply change the 32-bit values; then check if the correct values are shown on your LED Bar!
   - [x] Commit with message "basic setup" and push to Github
-- [ ] Decode stage:
-  - [ ] Add REGFILE to the circuit
-  - [ ] Send correct parts of the instruction from the PC register to the REGFILE
-  - [ ] Test: Connect LED Bars to rs1_data and rs2_data; right now there will be no content in the registers so the LEDs will be off, but later you will find them useful
-  - [ ] Commit with message "R-type decode and fetch" and push to Github
+- [x] Decode stage:
+  - [x] Add REGFILE to the circuit
+  - [x] Send correct parts of the instruction from the PC register to the REGFILE
+  - [x] Test: Connect LED Bars to rs1_data and rs2_data; right now there will be no content in the registers so the LEDs will be off, but later you will find them useful
+  - [x] Commit with message "R-type decode and fetch" and push to Github
 - [ ] Execute stage:
   - [ ] Add the ALU component
   - [ ] Connect it correctly with the output of the REGFILE
