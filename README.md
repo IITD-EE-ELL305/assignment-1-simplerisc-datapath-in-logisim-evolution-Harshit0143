@@ -45,7 +45,7 @@ You can check the boxes below as you progress through the assignment, simply by 
   - [x] Test: Connect LED Bars to rs1_data and rs2_data; right now there will be no content in the registers so the LEDs will be off, but later you will find them useful
   - [x] Commit with message "R-type decode and fetch" and push to Github
 - [ ] Execute stage:
-  - [ ] Add the ALU component
+  - [ ] Add the ALU componen
   - [ ] Connect it correctly with the output of the REGFILE
   - [ ] Add a 'control circuit' that will take the instruction and generate the appropriate ALU_OP signal for the ALU to perform the operation  
         For this, you will have to open and study the ALU circuit to know what control signals to generate
