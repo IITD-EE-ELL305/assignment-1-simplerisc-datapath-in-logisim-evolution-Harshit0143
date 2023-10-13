@@ -63,4 +63,5 @@ You can check the boxes below as you progress through the assignment, simply by 
 
 End of assignment 1a. Congratulations! You now have a working CPU that can perform basic operations on numbers!
 
-Notice: It looks like the cmp flags are updated in the "next cycle" after the values are calculated. That's because `cmp` is fed into the flag registers as `clk`. Not an issue as the flag is only used in a "later" instruction after it is used.
+Notice: It looks like the cmp flags are updated in the "next cycle" after the values are calculated. That's because in one clock cycle ALU produced values of `is_eq` and `is_gt` and then in the next cycle they are updated into the flag registers. This is not an issue as the flag values are used
+in `later` instructions after they are set and not in the same one.
