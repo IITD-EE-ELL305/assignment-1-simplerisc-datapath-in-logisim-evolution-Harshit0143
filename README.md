@@ -62,3 +62,5 @@ You can check the boxes below as you progress through the assignment, simply by 
   - [x] Commit to git with message "Added I-format arithmetic instructions" and push to Github
 
 End of assignment 1a. Congratulations! You now have a working CPU that can perform basic operations on numbers!
+
+Notice: It looks like the cmp flags are updated in the "next cycle" after the values are calculated. That's because `cmp` is fed into the flag registers as `clk`. Not an issue as the flag is only used in a "later" instruction after it is used.
